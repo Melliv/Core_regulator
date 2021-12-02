@@ -8,9 +8,9 @@ import Domain.enums.FlowRate;
 
 public class EngineFuelRegulator {
 
-    private final double MULTIPLIER = 3.5;
     private final double MAX_QUANTITY = 0.2;
-    private final double FIXED_ADDITIVE_QUANTITY = 0.05;
+    private final double MULTIPLIER = 5;
+    private final double FIXED_ADDITIVE_QUANTITY = 0.075;
 
     public EngineRequest getRequest(EngineData engineData) {
         EngineRequest engineRequest = new EngineRequest();
